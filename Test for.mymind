@@ -60,6 +60,10 @@
                   {
                     "id": "dsqcucne",
                     "text": "Performance Test(Based on protocol)"
+                  },
+                  {
+                    "id": "hkpnobyd",
+                    "text": "Security Test"
                   }
                 ]
               }
