@@ -1,0 +1,39 @@
+{
+  "root": {
+    "id": "ylqtikyj",
+    "text": "User Chain of Software",
+    "layout": "map",
+    "children": [
+      {
+        "id": "ttbgthni",
+        "text": "RD",
+        "side": "right",
+        "children": [
+          {
+            "id": "wvwwvgjt",
+            "text": "QA",
+            "children": [
+              {
+                "id": "smarazmd",
+                "text": "Client RD",
+                "children": [
+                  {
+                    "id": "qsccvymu",
+                    "text": "Client QA",
+                    "children": [
+                      {
+                        "id": "lwitnlua",
+                        "text": "Real User"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "id": "mqulqocq"
+}
