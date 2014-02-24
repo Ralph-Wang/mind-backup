@@ -1,0 +1,132 @@
+{
+  "root": {
+    "id": "qaaclpts",
+    "text": "Linux 性能指标",
+    "layout": "map",
+    "children": [
+      {
+        "id": "dlpnqcaf",
+        "text": "CPU",
+        "side": "right",
+        "children": [
+          {
+            "id": "dkvtioup",
+            "text": "运行队列",
+            "children": [
+              {
+                "id": "zvlouneu",
+                "text": "runnable &amp; running"
+              },
+              {
+                "id": "bsbcecwv",
+                "text": "最佳实践",
+                "children": [
+                  {
+                    "id": "movydfgf",
+                    "text": "保持在 2~3 倍 CPU"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "mhkdmwfi",
+            "text": "CPU 利用率",
+            "children": [
+              {
+                "id": "dgygktev",
+                "text": "**用户时间"
+              },
+              {
+                "id": "nhiyohkz",
+                "text": "**系统时间"
+              },
+              {
+                "id": "qlucsruy",
+                "text": "最佳实践",
+                "children": [
+                  {
+                    "id": "pekrizln",
+                    "text": "7 : 3 = user : sys"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "icoxmxav",
+        "text": "内存",
+        "side": "left",
+        "children": [
+          {
+            "id": "uoxozfkq",
+            "text": "交换空间",
+            "children": [
+              {
+                "id": "dhoxnvts",
+                "text": "内存交换很消耗资源"
+              }
+            ]
+          },
+          {
+            "id": "ipevxezr",
+            "text": "与磁盘交互",
+            "children": [
+              {
+                "id": "ydqupikx",
+                "text": "buffer",
+                "children": [
+                  {
+                    "id": "umghjtzf",
+                    "text": "写缓冲"
+                  }
+                ]
+              },
+              {
+                "id": "uidqmrku",
+                "text": "cache",
+                "children": [
+                  {
+                    "id": "cncmbfhe",
+                    "text": "读缓存"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wwlnjigr",
+        "text": "磁盘",
+        "side": "right",
+        "children": [
+          {
+            "id": "lghlfyls",
+            "text": "相当慢的设备",
+            "children": [
+              {
+                "id": "calebmmh",
+                "text": "Raid 技术"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ujxekokc",
+        "text": "网络",
+        "side": "left",
+        "children": [
+          {
+            "id": "hphfmhau",
+            "text": "带宽"
+          }
+        ]
+      }
+    ]
+  },
+  "id": "xfsejywh"
+}
