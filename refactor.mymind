@@ -1,0 +1,169 @@
+{
+  "root": {
+    "id": "tahxekqz",
+    "text": "重构手法",
+    "layout": "map",
+    "children": [
+      {
+        "id": "ebtjqnwa",
+        "text": "整理函数",
+        "side": "right",
+        "children": [
+          {
+            "id": "sawcgaoz",
+            "text": "提炼函数",
+            "children": [
+              {
+                "id": "auvblabr",
+                "text": "将独立逻辑提炼出来变为独立函数"
+              }
+            ]
+          },
+          {
+            "id": "jgsmmrlf",
+            "text": "内联函数",
+            "children": [
+              {
+                "id": "iarltgkf",
+                "text": "将不必要的函数去除",
+                "children": [
+                  {
+                    "id": "vkqhgywc",
+                    "text": "使用次数少"
+                  },
+                  {
+                    "id": "byilhcir",
+                    "text": "逻辑简单, 不需要用函数名表达意图"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "imhiqjxg",
+            "text": "内联变量",
+            "children": [
+              {
+                "id": "bxbtacrm",
+                "text": "类似于内联函数"
+              }
+            ]
+          },
+          {
+            "id": "wuirrdhb",
+            "text": "以查询代替变量",
+            "children": [
+              {
+                "id": "aocumdac",
+                "text": "除不必要的临时变量",
+                "children": [
+                  {
+                    "id": "lrvifbqf",
+                    "text": "使用次数少"
+                  },
+                  {
+                    "id": "oaeqfplu",
+                    "text": "妨碍\"提炼函数\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "zzgzteao",
+            "text": "引入解释性变量",
+            "children": [
+              {
+                "id": "mrpoinsy",
+                "text": "将复杂的表达式变为解释性的临时变量",
+                "children": [
+                  {
+                    "id": "odtzwant",
+                    "text": "表达式不足以表达其意图"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "oiubgzmr",
+            "text": "分解临时变量",
+            "children": [
+              {
+                "id": "jhnveiby",
+                "text": "将一个临时变量分解为多个",
+                "children": [
+                  {
+                    "id": "wlwhozjg",
+                    "text": "临时变量充当了多个角色"
+                  },
+                  {
+                    "id": "icogbyhq",
+                    "text": "临时变量被多次赋值"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "jjwcdjoe",
+            "text": "移除参数赋值",
+            "children": [
+              {
+                "id": "rnoftosp",
+                "text": "用临时变量代替对参数赋值",
+                "children": [
+                  {
+                    "id": "okraeqfl",
+                    "text": "保证参数是 final"
+                  },
+                  {
+                    "id": "hyguvhhi",
+                    "text": "保证按值传递的清晰"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "jcaxenap",
+            "text": "用函数对象取代函数",
+            "children": [
+              {
+                "id": "henzahdi",
+                "text": "无法使用\"提炼函数\"的大函数",
+                "children": [
+                  {
+                    "id": "acilpsfn",
+                    "text": "解决因过多临时变量导致的函数无法\"提炼\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "suiyqttj",
+            "text": "替换算法",
+            "children": [
+              {
+                "id": "fjmzbivz",
+                "text": "换一个清晰的算法",
+                "children": [
+                  {
+                    "id": "hdwjcqnl",
+                    "text": "有些算法确实很难看懂"
+                  },
+                  {
+                    "id": "phmlysup",
+                    "text": "有些算法确实一眼就能看懂"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "id": "bkpwpkfv"
+}
