@@ -162,6 +162,101 @@
             ]
           }
         ]
+      },
+      {
+        "id": "vwdtkylt",
+        "text": "整理类",
+        "side": "left",
+        "children": [
+          {
+            "id": "heprngaz",
+            "text": "移动属性",
+            "children": [
+              {
+                "id": "bzlxbyll",
+                "text": "让属性归属到真正拥有它的类里"
+              }
+            ]
+          },
+          {
+            "id": "efgnojwh",
+            "text": "移动方法",
+            "children": [
+              {
+                "id": "lvptkuhv",
+                "text": "让方法归属到真正拥有它的类里"
+              }
+            ]
+          },
+          {
+            "id": "cqsjdark",
+            "text": "提炼类",
+            "children": [
+              {
+                "id": "pamiraro",
+                "text": "分割过于庞大的类"
+              }
+            ]
+          },
+          {
+            "id": "wurewxfk",
+            "text": "合并类",
+            "children": [
+              {
+                "id": "yofoixsv",
+                "text": "去除无意义的类"
+              }
+            ]
+          },
+          {
+            "id": "aqqutzci",
+            "text": "建立委托",
+            "children": [
+              {
+                "id": "sanptxwm",
+                "text": "减少不必要的中间层"
+              }
+            ]
+          },
+          {
+            "id": "rvpwscal",
+            "text": "去除委托",
+            "children": [
+              {
+                "id": "ofjpquix",
+                "text": "封装底层"
+              }
+            ]
+          },
+          {
+            "id": "fpkkpgbm",
+            "text": "添加本地扩展",
+            "children": [
+              {
+                "id": "ccbhzogs",
+                "text": "用子类或包装类扩展原类功能"
+              },
+              {
+                "id": "cobtvhqf",
+                "text": "不能修改原类时使用"
+              }
+            ]
+          },
+          {
+            "id": "aheomznd",
+            "text": "添加外部函数",
+            "children": [
+              {
+                "id": "vftgjxsn",
+                "text": "在客户类中添加服务类的新功能"
+              },
+              {
+                "id": "cphszadk",
+                "text": "不能修改服务类时使用"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
