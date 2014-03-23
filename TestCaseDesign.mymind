@@ -1,0 +1,140 @@
+{
+  "root": {
+    "id": "dnkvxdby",
+    "text": "用例设计&nbsp;",
+    "layout": "map",
+    "children": [
+      {
+        "id": "npsoperd",
+        "text": "黑盒用例设计",
+        "side": "right",
+        "children": [
+          {
+            "id": "lffdygqy",
+            "text": "等价类",
+            "children": [
+              {
+                "id": "ijgfyjxl",
+                "text": "有效类"
+              },
+              {
+                "id": "ysikcntq",
+                "text": "无效类"
+              }
+            ]
+          },
+          {
+            "id": "yfpkcmyl",
+            "text": "边界值",
+            "children": [
+              {
+                "id": "jutkrgph",
+                "text": "上点"
+              },
+              {
+                "id": "ifvferqe",
+                "text": "内点"
+              },
+              {
+                "id": "qlpkzjxn",
+                "text": "外点"
+              }
+            ]
+          },
+          {
+            "id": "scdmwwec",
+            "text": "判定表",
+            "children": [
+              {
+                "id": "mlzaahkr",
+                "text": "真值表"
+              }
+            ]
+          },
+          {
+            "id": "lzrlihgn",
+            "text": "因果图",
+            "children": [
+              {
+                "id": "acznrjxm",
+                "text": "复合型状态机"
+              }
+            ]
+          },
+          {
+            "id": "drkertcm",
+            "text": "状态迁移图",
+            "children": [
+              {
+                "id": "xpxrueuv",
+                "text": "基本状态机"
+              }
+            ]
+          },
+          {
+            "id": "qwrwnghl",
+            "text": "正交表",
+            "children": [
+              {
+                "id": "hndhsudr",
+                "text": "简化的真值表"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "paznlqok",
+        "text": "白盒用例设计&nbsp;",
+        "side": "left",
+        "children": [
+          {
+            "id": "lbzxrtfz",
+            "text": "语句覆盖"
+          },
+          {
+            "id": "opaddzyi",
+            "text": "判定覆盖",
+            "children": [
+              {
+                "id": "uxpmpcgw",
+                "text": "结合边界值"
+              }
+            ]
+          },
+          {
+            "id": "oxmjtncn",
+            "text": "条件覆盖",
+            "children": [
+              {
+                "id": "fajlsryq",
+                "text": "结合边界值"
+              }
+            ]
+          },
+          {
+            "id": "sazdcyvo",
+            "text": "路径覆盖",
+            "children": [
+              {
+                "id": "tojjppxn",
+                "text": "流图"
+              }
+            ]
+          },
+          {
+            "id": "adnradrj",
+            "text": "循环路径覆盖",
+            "children": [
+              {
+                "id": "kxmcbjmg",
+                "text": "最小循环次数"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "id": "jolyibkt"
+}
