@@ -1,0 +1,40 @@
+{
+  "root": {
+    "id": "vaszyqjf",
+    "text": "需求评审",
+    "layout": "map",
+    "children": [
+      {
+        "id": "ocnsrmvg",
+        "text": "不做",
+        "side": "right",
+        "children": [
+          {
+            "id": "iutrretu",
+            "text": "解决了什么问题"
+          },
+          {
+            "id": "hcbhcdhq",
+            "text": "原有功能通过组合不能完成?"
+          }
+        ]
+      },
+      {
+        "id": "qlhuhqed",
+        "text": "要做",
+        "side": "left",
+        "children": [
+          {
+            "id": "ivcuxriv",
+            "text": "产品需求是否完全满足用户需求"
+          },
+          {
+            "id": "cuvrygat",
+            "text": "产品需求是否相对用户需求有多余"
+          }
+        ]
+      }
+    ]
+  },
+  "id": "teffeqhm"
+}
